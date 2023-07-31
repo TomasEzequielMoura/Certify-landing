@@ -1,0 +1,25 @@
+.intro .column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro .columns{
+    min-height: 600px;
+}
+
+.intro .title {
+    text-align: initial;
+    font-size: 3.6rem;
+    width: 100%;
+}
+
+.intro .column div {
+    width: 100%;
+    text-align: initial;
+}
+
+.intro .button {
+    padding: 1.5rem 3rem;
+}

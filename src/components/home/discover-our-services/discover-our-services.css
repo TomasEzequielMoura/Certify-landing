@@ -1,0 +1,33 @@
+.discover-our-services .emoji {
+    width: 40px;
+    height: 40px;
+}
+
+.discover-our-services .cellphone {
+    min-width: 300px;
+}
+
+.discover-our-services h3, .discover-our-services p{
+    text-align: start;
+}
+
+.discover-our-services .d-flex.direction-row.align-center { 
+    gap: 20px;
+}
+
+.discover-our-services .d-flex-centrado{
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+.discover-our-services{
+    gap: 2rem;
+}
+
+.discover-our-services ~ .d-flex{
+    margin-bottom: 3rem;
+}
+
+.discover-our-services .d-flex-centrado{
+    flex: 1 1 0px;
+}

@@ -18,3 +18,8 @@ iframe {
     margin: 2rem 0 0 !important;
     border-radius: 20px;
 }
+
+.iframeYT .low-embed-size {
+    max-width: 70%;
+    margin: auto;
+}

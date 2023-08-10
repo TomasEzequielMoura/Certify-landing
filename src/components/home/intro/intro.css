@@ -23,3 +23,11 @@
 .intro .button {
     padding: 1.5rem 3rem;
 }
+
+@media (max-width: 768px) {
+    .intro .title,
+    .intro .column div {
+        text-align: center;
+    }
+    
+}

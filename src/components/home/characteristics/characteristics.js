@@ -5,7 +5,7 @@ import './characteristics.css';
 
 const Characteristics = () => {
   return (
-    <>
+    <section>
       <div className='container characteristics'>
         <div className="columns">
           <div className="column">
@@ -28,7 +28,7 @@ const Characteristics = () => {
 
         </div>
       </div>
-    </>
+    </section>
   )
 }
 

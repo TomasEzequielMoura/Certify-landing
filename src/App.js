@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './hover-buttons.css';
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 import Intro from "./components/home/intro/intro";
@@ -12,7 +13,7 @@ import DiscoverOurServices from "./components/home/discover-our-services/discove
 import Features from "./components/home/features/features";
 import GetInTouch from "./components/home/get-in-touch/get-in-touch";
 import IframeYt from "./components/home/iframe-yt/iframe-yt";
-import Subscribe from "./components/home/subscribe/subscribe";
+// import Subscribe from "./components/home/subscribe/subscribe";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         <ContactUs></ContactUs>
         <Blog></Blog>
         <Customer></Customer>
-        <Subscribe></Subscribe>
+        {/* <Subscribe></Subscribe> */}
       <Footer></Footer>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

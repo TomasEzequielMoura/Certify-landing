@@ -1,0 +1,15 @@
+.get-in-touch{
+    padding: 2rem
+}
+
+.get-in-touch .subtitle{
+    color: black !important;
+}
+
+.get-in-touch .text{
+    text-align: initial;
+}
+
+.get-in-touch .d-flex-center {
+    gap: 5rem;
+}

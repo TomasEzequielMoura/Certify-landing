@@ -2,6 +2,12 @@
     text-align: initial;
 }
 
+.characteristics.container{
+    display: flex;
+    justify-content: center;
+}
+
+
 .characteristics p {
     text-align: initial;
 }
@@ -10,6 +16,9 @@
     margin: 1.5rem 0;
 }
 
+.characteristics table{
+    margin: 0;
+}
 
 @media (max-width: 768px) {
     .characteristics .columns .column:nth-child(1) {
@@ -20,8 +29,16 @@
         order: 1;
     }
 
+    .characteristics table{
+        margin: auto;
+    }
+
     .characteristics .columns {
         display: flex;
         flex-direction: column;
+    }
+
+    .characteristics .subsubtitle1 {
+        margin: 1.5rem;
     }
 }

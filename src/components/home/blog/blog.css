@@ -1,0 +1,33 @@
+.blog h4{
+    color: #0B132A;
+    font-weight: 600;
+}
+
+.blog h5{
+    color: #4F5665;
+}
+
+.blog h5,
+.blog h4{
+    text-align: initial;
+    margin: 0.5rem auto;
+    width: 90%;
+}
+
+.blog .columns{
+    margin: 2rem 0;
+}
+
+.blog img{
+    width: 90%
+}
+
+@media (max-width: 768px) {
+    .blog img {
+        width: 40%;
+        min-width: 200px;
+    }
+    .blog h5, .blog h4 {
+        text-align: center;
+    }
+}

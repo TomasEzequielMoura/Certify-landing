@@ -1,0 +1,35 @@
+#contactUs .button-creative {
+    width: auto;
+}
+
+#contactUs .contact-form .full-size{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contactUs .column:nth-child(3) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contactUs .column:nth-child(3) div{
+    margin: 1rem 0;
+    width: 50%;
+    text-align: initial;
+}
+
+#contactUs .column:nth-child(3) div h6{
+    text-align: initial;
+    color: #3263B9;
+}
+
+@media (max-width: 768px) {
+    #contactUs .column:nth-child(3) div h6,
+    #contactUs .column:nth-child(3) div p{
+        text-align: center;
+    }
+}
+

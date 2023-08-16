@@ -45,7 +45,7 @@ const DiscoverOurServices = () => {
               </div>
             </div>
           </div>
-          <div className='flex-same-size'>
+          <div className='flex-same-size d-none-622'>
             <div>
               <img src={Cellphone} alt='Cellphone' className='cellphone' />
             </div>

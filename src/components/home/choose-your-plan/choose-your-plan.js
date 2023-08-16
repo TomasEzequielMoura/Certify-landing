@@ -1,5 +1,8 @@
 import React from 'react'
 import Box from '../../../assets/images/box-plan.png';
+import BlueBox from '../../../assets/images/caja azul.png';
+import GreenBox from '../../../assets/images/caja verde.png';
+import VioletBox from '../../../assets/images/caja violeta.png';
 import Tilde from '../../../assets/images/tilde.png';
 import './choose-your-plan.css';
 
@@ -17,13 +20,13 @@ const ChooseYourPlan = () => {
               <div className='mb-3'>
                 <div className="d-flex-centrado">
                   <figure className="image">
-                    <img src={Box} alt="Placeholder image" />
+                    <img src={GreenBox} alt="Placeholder image" />
                   </figure>
                 </div>
                 <h3 className='mt-5 mb-5'>
                   Basic Plan
                 </h3>
-                <table>
+                <table className='tabla-tilde'>
                   <tbody>
                     <tr>
                       <td><img src={Tilde} alt='tilde' /></td>
@@ -48,7 +51,7 @@ const ChooseYourPlan = () => {
                 <button className="button is-primary"><a href="#contactUs">Discover our services</a></button>
               </div> */}
               <a href="#contactUs">
-                <nav className="button-creative button-primary-creative">
+                <nav className="button-creative button-green-creative">
                   <ul>
                     <li>
                       Discover our services<span></span><span></span><span></span><span></span>
@@ -63,13 +66,13 @@ const ChooseYourPlan = () => {
               <div className='mb-3'>
                 <div className="d-flex-centrado">
                   <figure className="image">
-                    <img src={Box} alt="Placeholder image" />
+                    <img src={VioletBox} alt="Placeholder image" />
                   </figure>
                 </div>
                 <h3 className='mt-5 mb-5'>
                   Standard Plan
                 </h3>
-                <table>
+                <table className='tabla-tilde'>
                   <tbody>
                     <tr>
                       <td><img src={Tilde} alt='tilde' /></td>
@@ -98,7 +101,7 @@ const ChooseYourPlan = () => {
                 <button className="button is-primary"><a href="#contactUs">Discover our services</a></button>
               </div> */}
               <a href="#contactUs">
-                <nav className="button-creative button-primary-creative">
+                <nav className="button-creative button-violet-creative">
                   <ul>
                     <li>
                       Discover our services<span></span><span></span><span></span><span></span>
@@ -113,13 +116,13 @@ const ChooseYourPlan = () => {
               <div className='mb-3'>
                 <div className="d-flex-centrado">
                   <figure className="image">
-                    <img src={Box} alt="Placeholder image" />
+                    <img src={BlueBox} alt="Placeholder image" />
                   </figure>
                 </div>
                 <h3 className='mt-5 mb-5'>
                   Premium Plan
                 </h3>
-                <table>
+                <table className='tabla-tilde'>
                   <tbody>
                     <tr>
                       <td><img src={Tilde} alt='tilde' /></td>

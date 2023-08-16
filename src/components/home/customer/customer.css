@@ -1,0 +1,33 @@
+section.customer{
+    margin: 3rem auto;
+}
+
+.customer p.title,
+.customer p.subtitle {
+    margin: 0;
+}
+
+.customer .columns{
+    margin: 2rem 0;
+}
+
+.customer .card{
+    height: 100%;
+}
+
+.customer .card-content {
+    justify-content: flex-start;
+}
+
+.customer .content{
+    line-height: 1.7;
+    text-align: initial;
+}
+
+.customer .card .media:not(:last-child) {
+    margin-bottom: 1.2rem;
+}
+
+.customer .media-content p{
+    text-align: initial;
+}

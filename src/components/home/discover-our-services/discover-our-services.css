@@ -31,3 +31,26 @@
 .discover-our-services .d-flex-centrado{
     flex: 1 1 0px;
 }
+
+@media (max-width: 622px) {
+    .discover-our-services .d-flex{
+      flex-direction: column;
+    }
+  
+    .discover-our-services .d-flex.direction-row.align-center .d-flex-column h3,
+    .discover-our-services .d-flex.direction-row.align-center .d-flex-column p{
+      text-align: center;
+    }
+  
+    .discover-our-services .d-flex.direction-row.align-center {
+      width: 100%;
+    }
+  
+    .d-flex-centrado.flex-same-size:nth-child(3){
+      margin-top: 1rem;
+    }
+  
+    .discover-our-services .d-flex-centrado{
+      gap: 1rem;
+    }
+  }

@@ -18,3 +18,9 @@
 .border-bottom{
     border-bottom: 1px solid #4f566524;
 }
+
+@media (max-width: 1023px) {
+    .navbar-item .buttons{
+        justify-content: center;
+    }
+}

@@ -13,3 +13,13 @@
 .get-in-touch .d-flex-center {
     gap: 5rem;
 }
+
+@media (max-width: 622px) {
+    .get-in-touch .button-creative{
+        margin: 0.5em auto;
+    }
+
+    .get-in-touch .subtitle{
+        text-align: center;
+    }
+}

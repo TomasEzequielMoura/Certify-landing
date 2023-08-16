@@ -19,6 +19,10 @@ const Footer = () => {
             <p>Certifyforever by Dapps Factory</p>
           </div>
           <div className='column'>
+          </div>
+          <div className='column'>
+          </div>
+          <div className='column'>
             <h6>Product</h6>
             <a href="#digitalCertificates">Digital Certificates</a>
             <a href="#features">Features</a>

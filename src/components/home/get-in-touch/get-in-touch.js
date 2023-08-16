@@ -25,7 +25,7 @@ const GetInTouch = () => {
               </nav>
             </a>
           </div>
-          <div>
+          <div className='d-none-622'>
             <img src={Background} className='image' alt='Background' />
           </div>
         </div>

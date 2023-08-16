@@ -4,6 +4,8 @@ import Linkedin from '../../../assets/images/Linkedin.png';
 import Telegram from '../../../assets/images/telegram.png';
 import Twitter from '../../../assets/images/Twitter.png';
 import Instagram from '../../../assets/images/Instagram.png';
+import './contact-us.css';
+
 
 const ContactUs = () => {
   return (
@@ -11,11 +13,11 @@ const ContactUs = () => {
       <section className='background-grey pb-5' id='contactUs'>
         <div className='container'>
           <div className='columns'>
-            <div className='column'>
+            <div className='column d-none-622'>
               <img src={NFT} className='image' alt='Background' />
             </div>
-            <div className='column'>
-              <div>
+            <div className='column contact-form'>
+              <div className='full-size'>
                 <h2 className='subtitle'>Contact Us</h2>
                 <div className="field">
                   <label className="label">Full Name</label>
@@ -45,9 +47,19 @@ const ContactUs = () => {
                     </span>
                   </div>
                 </div>
-                <div className="buttons">
+                {/* <div className="buttons">
                   <button className="is-primary is-rounded is-fullwidth button" tabindex="0">Login</button>
-                </div>
+                </div> */}
+                <a href="#contactUs">
+                  <nav className="button-creative button-primary-creative">
+                    <ul>
+                      <li>
+                        Contact us<span></span><span></span><span></span><span></span>
+                      </li>
+                    </ul>
+                  </nav>
+                </a>
+
               </div>
             </div>
             <div className='column'>

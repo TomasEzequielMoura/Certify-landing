@@ -5,16 +5,6 @@
     width: 100%;
 }
 
-.choose-your-plan table{
-    text-align: initial;
-    border-collapse: separate;
-    border-spacing: 15px;
-}
-
-.choose-your-plan table td{
-    margin: 0 1rem;
-}
-
 
 .choose-your-plan h3{
     font-size: 1.4rem;
@@ -31,10 +21,6 @@
     border: 2px solid #DDDDDD;
     border-radius: 10px;
     width: inherit;
-}
-
-.choose-your-plan table {
-    margin: auto;
 }
 
 @media (max-width: 1200px) {

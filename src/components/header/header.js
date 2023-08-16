@@ -50,7 +50,7 @@ const Header = () => {
                           </ul>
                         </nav>
                       </a>
-                      <a href="https://certifyforever.com/login" target="_blank">
+                      <a href="https://login.certifyforever.com/" target="_blank">
                         <nav className="button-creative button-secondary-creative">
                           <ul>
                             <li>

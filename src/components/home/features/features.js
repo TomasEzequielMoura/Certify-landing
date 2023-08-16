@@ -8,7 +8,7 @@ import circulo4 from '../../../assets/images/circulo4.png';
 const Features = () => {
   return (
     <section id="features" className='background-gradient-blue' style={{ height: 'auto' }}>
-      <div className="container container-simil-bootstrap features">
+      <div className="container noncontainer features">
         <div>
           <h2 className='subtitle'>Features</h2>
           <p className='subsubtitle2'>Digital Certificates main characteristics</p>

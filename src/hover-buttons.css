@@ -33,7 +33,6 @@
   overflow: hidden;
   z-index: 1;
   transition: 0.5s;
-
   padding: 0.5rem 1rem;
 }
 
@@ -49,6 +48,18 @@
   border: 0.1em solid var(--c);
 }
 
+.button-green-creative ul li {
+  --c: #4ca583;
+  color: var(--c);
+  border: 0.2em solid var(--c);
+}
+
+.button-violet-creative ul li {
+  --c: #9f39b4;
+  color: var(--c);
+  border: 0.2em solid var(--c);
+}
+
 .button-creative ul li span {
   position: absolute;
   width: 25%;
@@ -61,21 +72,29 @@
   z-index: -1;
 }
 
-.button-primary-creative ul li span {
+.button-primary-creative ul li span,
+.button-secondary-creative ul li span,
+.button-green-creative ul li span,
+.button-blue-creative ul li span,
+.button-violet-creative ul li span {
   background-color: var(--c);
 }
 
-.button-secondary-creative ul li span {
-  background-color: var(--c);
-}
-
-
-.button-primary-creative ul li a {
+.button-primary-creative ul li a,
+.button-blue-creative ul li a  {
   color: #3263B9;
 }
 
 .button-secondary-creative ul li a {
   color: #4F5665;
+}
+
+.button-green-creative ul li a {
+  color: #4ca583;
+}
+
+.button-violet-creative ul li a {
+  color: #9f39b4;
 }
 
 .button-creative ul li:hover {

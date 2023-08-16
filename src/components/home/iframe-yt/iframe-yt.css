@@ -23,3 +23,10 @@ iframe {
     max-width: 70%;
     margin: auto;
 }
+
+@media (max-width: 768px) {
+    .iframeYT .low-embed-size {
+        max-width: initial;
+        margin: 1rem 0;
+    }
+}

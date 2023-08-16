@@ -5,6 +5,12 @@
     flex-direction: column;
 }
 
+.intro.container{
+    display: flex;
+    justify-content: center;
+}
+
+
 .intro .columns{
     min-height: 600px;
 }
@@ -24,10 +30,26 @@
     padding: 1.5rem 3rem;
 }
 
+@media (max-width: 1023px) {
+    .intro .columns{
+        min-height: 400px;
+        padding: 0 2rem; 
+    }
+}
+
+@media (max-width: 991px) {
+    .intro .column .title{
+        font-size: 2.5rem;
+    }
+}
+
 @media (max-width: 768px) {
     .intro .title,
     .intro .column div {
         text-align: center;
     }
-    
+
+    .intro .columns{
+        padding: 0rem; 
+    }
 }
